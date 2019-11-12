@@ -9,7 +9,10 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var movieImageView: UIImageView!
+    @IBOutlet weak var movieNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
